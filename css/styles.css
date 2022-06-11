@@ -1,0 +1,127 @@
+body{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+    background: rgb(144, 125, 144);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.cards-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+   /* position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    top: 0;*/
+    margin-top: 130px;
+    
+}
+
+.img img{
+max-width: 100%;
+height: auto;
+border-radius: 20px 20px 0 0;
+    
+}
+
+.img{
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.card{
+    max-width: 600px;
+    background-color: #fff;
+    border-radius: 20px;
+    text-align: center;
+    padding-bottom: 20px;
+    
+}
+
+#one:hover, #two:hover, #three:hover{
+    box-shadow: 0 5px 20px 0 rgba(30, 31, 32, 0.9);
+}
+
+h2{
+    font-size: 30px;
+    font-weight: normal;
+}
+
+#one{
+    box-shadow: 0px 5px 20px 0px rgba(18, 97, 224, 0.9);
+} 
+
+#two{
+    box-shadow: 0px 5px 20px 0px rgba(234, 109, 6, 0.9);
+}
+
+#three{
+    box-shadow: 0px 5px 20px 0px  rgba(234, 6, 6, 0.9);
+}
+
+a{
+    color: black;
+    text-decoration: none;
+    font-size: 18px;
+    font-style: italic;
+}
+
+a:hover{
+    border-bottom: 1px solid black;
+}
+
+.live_site{
+    margin-right: 25px;
+}
+
+h1{
+    text-align: center;
+    font-size: 45px;
+    font-style: italic;
+    font-weight: lighter;
+}
+
+header {
+    background-color: rgba(214, 214, 239, 0.55);
+    border-bottom: 1.5px solid black ;
+}
+
+p{
+    margin-bottom: 40px;
+    font-size: 20px;
+    
+}
+
+@media screen and (max-width: 600px) {
+    .card{
+        margin: 25px;
+    }
+
+    .cards-container{
+        margin-top: 10px;
+    }
+
+    p{
+        font-size: 16px;
+    }
+
+    h2{
+        font-size: 22px;
+    }
+
+    h1{
+        font-size: 40px;
+    }
+    
+    a{
+        font-size: 15px;
+    }
+
+}
