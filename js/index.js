@@ -18,4 +18,4 @@ const options = {
 
 };
 const corsEnabledUrl = "https://noroffcors.herokuapp.com/" + videoUrl;
-videoId.innerHTML = `<source src="${videoUrl}" type="video/mp4">`;
+videoId.innerHTML = `<source src="${corsEnabledUrl}" type="video/mp4">`;
