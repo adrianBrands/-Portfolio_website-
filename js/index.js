@@ -1,9 +1,17 @@
-const videoId = document.getElementById('background-video');
+class student {
+  constructor(firstNAme, lastName){
+    this.firstNAme = firstNAme;
+    this.lastName = lastName;
+  }
 
-const videoUrl = "https://photos.google.com/share/AF1QipOMksnRrteer2XSySVRpyAiCPmIJwWeC2lXej7vkojdg0uy8NGWwHZq4b-OD22fZg/photo/AF1QipNCZ1hWDmiCSZ0xQgkMtFrhZ3QUfRT7GMUGpMj8";
+  greetStudent(){
+    console.log(`Greetings ${this.firstNAme}`);
+    console.log(`Your last name is: ${this.lastName}`)
+  }
+}
 
-//"https://photos.google.com/share/AF1QipOMksnRrteer2XSySVRpyAiCPmIJwWeC2lXej7vkojdg0uy8NGWwHZq4b-OD22fZg/photo/AF1QipNCZ1hWDmiCSZ0xQgkMtFrhZ3QUfRT7GMUGpMj8?key=X0Q2QTNnajcyZkxkTHNLZXE4LWJUUzBUd2EwcEFR"
-//?key=X0Q2QTNnajcyZkxkTHNLZXE4LWJUUzBUd2EwcEFR?X0Q2QTNnajcyZkxkTHNLZXE4LWJUUzBUd2EwcEFR
+const student1 = new student("Adrian", "Brandshaug");
+const student2 = new student("Adrian", "Brandshaug");
 
-const corsEnabledUrl = "https://noroffcors.herokuapp.com/" + videoUrl;
-//videoId.innerHTML = `<source src="${corsEnabledUrl}" type="video/mp4">`;
+student1.greetStudent();
+//student2.greetStudent();

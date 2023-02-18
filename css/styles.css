@@ -23,7 +23,7 @@ body{
 .greeting_portfolio {
     text-align: center;
     color:rgb(255, 255, 255);
-    margin-top: 30vh;
+    margin-top: 10vh;
 }
 
 header {
@@ -35,4 +35,39 @@ main {
     position: relative;
     background-color: #fff;
     height: 200px;
+    
+}
+
+h1 {
+    font-size: 45px;
+}
+
+h2 {
+    font-size: 35px;
+}
+
+p {
+    font-size: 20px;
+}
+
+.about {
+    text-align: center;
+}
+
+.aboutContent {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    text-align: center;
+    background-color: aquamarine;
+}
+
+.content1 {
+    width: 500px;
+}
+
+.content2 {
+    width: 500px;
+    
 }
